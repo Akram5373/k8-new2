@@ -3,10 +3,10 @@ name: deploy ansible
 on:
   push:
     branches:
-    - master
+    - new
   pull_request:
     branches:
-    - master
+    - new
 
 jobs:
   build:
