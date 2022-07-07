@@ -1,4 +1,4 @@
-- name: Start instances
+- name: Start instance
   hosts: localhost
   gather_facts: false 
   connection: local
