@@ -18,7 +18,7 @@ jobs:
           # Required, playbook filepath
           playbook: deploy.yml
           # Optional, directory where playbooks live
-          directory: new
+          directory: /home/runner/work/k8-new2/k8-new2/new
           # Optional, SSH private key
           key: ${{secrets.SSH_PRIVATE_KEY}}
           # Optional, literal inventory file contents
